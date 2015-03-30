@@ -32,6 +32,18 @@ public class TestConvert {
 	@Test
 	public void test_num2text_deux () {
 		// Given
+		String input = "2";
+		String expected = "deux";
+		Convert myConvert = new Convert();
+		// When
+		String actual = myConvert.num2text(input);
+		// Then
+		Assert.assertEquals(expected, actual);
+	}
+	
+	@Test
+	public void test_num2text_trois () {
+		// Given
 		String input = "3";
 		String expected = "trois";
 		Convert myConvert = new Convert();
@@ -42,7 +54,7 @@ public class TestConvert {
 	}
 	
 	@Test
-	public void test_num2text_trois () {
+	public void test_num2text_quatre () {
 		// Given
 		String input = "4";
 		String expected = "quatre";
@@ -54,7 +66,7 @@ public class TestConvert {
 	}
 	
 	@Test
-	public void test_num2text_quatre () {
+	public void test_num2text_cinq () {
 		// Given
 		String input = "5";
 		String expected = "cinq";
@@ -66,7 +78,7 @@ public class TestConvert {
 	}
 	
 	@Test
-	public void test_num2text_cinq () {
+	public void test_num2text_six () {
 		// Given
 		String input = "6";
 		String expected = "six";
@@ -78,7 +90,7 @@ public class TestConvert {
 	}
 	
 	@Test
-	public void test_num2text_six () {
+	public void test_num2text_sept () {
 		// Given
 		String input = "7";
 		String expected = "sept";
@@ -90,7 +102,7 @@ public class TestConvert {
 	}
 	
 	@Test
-	public void test_num2text_sept () {
+	public void test_num2text_huit () {
 		// Given
 		String input = "8";
 		String expected = "huit";
@@ -102,7 +114,7 @@ public class TestConvert {
 	}
 	
 	@Test
-	public void test_num2text_huit () {
+	public void test_num2text_neuf () {
 		// Given
 		String input = "9";
 		String expected = "neuf";
@@ -114,7 +126,7 @@ public class TestConvert {
 	}
 	
 	@Test
-	public void test_num2text_neuf () {
+	public void test_num2text_dix () {
 		// Given
 		String input = "10";
 		String expected = "dix";
@@ -126,7 +138,7 @@ public class TestConvert {
 	}
 	
 	@Test
-	public void test_num2text_dix () {
+	public void test_num2text_onze () {
 		// Given
 		String input = "11";
 		String expected = "onze";
@@ -138,7 +150,7 @@ public class TestConvert {
 	}
 	
 	@Test
-	public void test_num2text_onze () {
+	public void test_num2text_douze () {
 		// Given
 		String input = "12";
 		String expected = "douze";
@@ -150,7 +162,7 @@ public class TestConvert {
 	}
 	
 	@Test
-	public void test_num2text_douze () {
+	public void test_num2text_treize () {
 		// Given
 		String input = "13";
 		String expected = "treize";
@@ -162,7 +174,7 @@ public class TestConvert {
 	}
 	
 	@Test
-	public void test_num2text_treize () {
+	public void test_num2text_quatorze () {
 		// Given
 		String input = "14";
 		String expected = "quatorze";
@@ -174,7 +186,7 @@ public class TestConvert {
 	}
 	
 	@Test
-	public void test_num2text_quatorze () {
+	public void test_num2text_quinze () {
 		// Given
 		String input = "15";
 		String expected = "quinze";
@@ -186,10 +198,70 @@ public class TestConvert {
 	}
 	
 	@Test
-	public void test_num2text_quinze () {
+	public void test_num2text_seize () {
 		// Given
 		String input = "16";
 		String expected = "seize";
+		Convert myConvert = new Convert();
+		// When
+		String actual = myConvert.num2text(input);
+		// Then
+		Assert.assertEquals(expected, actual);
+	}
+	
+	@Test
+	public void test_num2text_vingt () {
+		// Given
+		String input = "20";
+		String expected = "vingt";
+		Convert myConvert = new Convert();
+		// When
+		String actual = myConvert.num2text(input);
+		// Then
+		Assert.assertEquals(expected, actual);
+	}
+	
+	@Test
+	public void test_num2text_trente () {
+		// Given
+		String input = "30";
+		String expected = "trente";
+		Convert myConvert = new Convert();
+		// When
+		String actual = myConvert.num2text(input);
+		// Then
+		Assert.assertEquals(expected, actual);
+	}
+	
+	@Test
+	public void test_num2text_quarante () {
+		// Given
+		String input = "40";
+		String expected = "quarante";
+		Convert myConvert = new Convert();
+		// When
+		String actual = myConvert.num2text(input);
+		// Then
+		Assert.assertEquals(expected, actual);
+	}
+	
+	@Test
+	public void test_num2text_cinquante () {
+		// Given
+		String input = "50";
+		String expected = "cinquante";
+		Convert myConvert = new Convert();
+		// When
+		String actual = myConvert.num2text(input);
+		// Then
+		Assert.assertEquals(expected, actual);
+	}
+	
+	@Test
+	public void test_num2text_soixante () {
+		// Given
+		String input = "60";
+		String expected = "soixante";
 		Convert myConvert = new Convert();
 		// When
 		String actual = myConvert.num2text(input);
